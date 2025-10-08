@@ -46,7 +46,7 @@ These insights empower stakeholders with key business metrics, enabling strategi
 ## 📂 Repository Structure
 ```
 data-analysis-with-eda/
-  ├── exploratory-data-analysis(EDA)/          # Scripts for exploratory data analysis
+  ├── exploratory-data-analysis(EDA)/     # Scripts for exploratory data analysis
   │
   └── data-analysis/                      # Scripts for data analysis
 
@@ -61,6 +61,6 @@ data-warehouse-project/
   │   ├── silver/                         # Scripts for cleaning and transforming data
   │   ├── gold/                           # Scripts for creating analytical models
   │
-  └──tests/                              # Test scripts and quality files
+  └──tests/                               # Test scripts and quality files
 
-README.md                           # Project overview and instructions
+README.md                                 # Project overview and instructions
