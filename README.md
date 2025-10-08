@@ -45,19 +45,22 @@ These insights empower stakeholders with key business metrics, enabling strategi
 
 ## 📂 Repository Structure
 ```
+data-analysis-with-eda/
+  ├── exploratory-data-analysis(EDA)/          # Scripts for exploratory data analysis
+  │
+  └── data-analysis/                      # Scripts for data analysis
+
 data-warehouse-project/
-│
-├── datasets/                           # Raw datasets used for the project (ERP and CRM data)
-│
-├── docs/                               # Data model and architecture details
-│   ├── naming-conventions.md           # Consistent naming guidelines for tables, columns, and files
-│
-├── scripts/                            # SQL scripts for ETL and transformations
-│   ├── bronze/                         # Scripts for extracting and loading raw data
-│   ├── silver/                         # Scripts for cleaning and transforming data
-│   ├── gold/                           # Scripts for creating analytical models
-│
-├── tests/                              # Test scripts and quality files
-│
-├── README.md                           # Project overview and instructions
-└── requirements.txt                    # Dependencies and requirements for the project
+  ├── datasets/                           # Raw datasets used for the project (ERP and CRM data)
+  │
+  ├── docs/                               # Data model and architecture details
+  │   ├── naming-conventions.md           # Consistent naming guidelines for tables, columns, and files
+  │
+  ├── scripts/                            # SQL scripts for ETL and transformations
+  │   ├── bronze/                         # Scripts for extracting and loading raw data
+  │   ├── silver/                         # Scripts for cleaning and transforming data
+  │   ├── gold/                           # Scripts for creating analytical models
+  │
+  └──tests/                              # Test scripts and quality files
+
+README.md                           # Project overview and instructions
